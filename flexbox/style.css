@@ -1,0 +1,21 @@
+.css {
+    display: flex;
+}
+
+.z {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.u {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.v {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
