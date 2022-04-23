@@ -45,3 +45,12 @@
     top: 51px;
     left: 10px;
 }
+.button:hover{
+    background: rgb(115, 129, 192);
+}
+.button2:hover{
+    background-color: rgb(241, 101, 241);
+}
+.button3:hover{
+    background-color: rgb(240, 240, 15);
+}
