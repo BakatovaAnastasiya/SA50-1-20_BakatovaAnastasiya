@@ -54,3 +54,12 @@
 .button3:hover{
     background-color: rgb(240, 240, 15);
 }
+.button:active{
+    background-color: #883a3a;
+}
+.button2:active{
+    background-color: #00e1ff;
+}
+.button3:active{
+    background-color: #cba593;
+}
