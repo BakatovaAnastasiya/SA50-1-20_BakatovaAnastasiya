@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.qwerty{
+    border-style:dotted;
+    border-radius: 3px;
+    border-color:grey;
+    padding-bottom:55px;
+    width:100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.a{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.s{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(175, 19, 206);
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.d{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: green;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+.f{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.g{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(175, 19, 206);
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+.h{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+.j{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(175, 19, 206);
+    position: relative;
+    top: 25px;
+    left: 45px;
+    z-index: 1;
+}
+.z{
+    top: 50px;
+    left: 50px;
+    height: 500px;
+    width: 600px;
+    background-color: greenyellow;
+    position: relative;
+}
+.x{
+    background-color: white;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    top: -400px;
+    left: 100px;
+}
+.c{
+    position: relative;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    top: -280px;
+    left: 465px;
+}
+    .v {
+        width: 500px;
+        height: 500px;
+        overflow: scroll;
+        padding-left: auto;
+        padding-top: auto;
+    }
+
+    .b {
+        background: rgb(156, 151, 255);
+        border: 3px solid rgb(89, 255, 178);
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    .n {
+        background: rgb(249, 160, 255);
+        width: 400px;
+        height: 250px;
+        padding: 15px;
+        padding-top: auto;
+        margin-left: 26px;
+        line-height: 20px;
+    }
