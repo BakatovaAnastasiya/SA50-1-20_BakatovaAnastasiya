@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить группу</title>
+</head>
+<body>
+    <h1>Добавление группы</h1>
+    <form method="POST">
+        <label>Группа</label><br>
+        <input name="group_name"/><br><br>
+        <label>Курс</label><br>
+        <input name="cource"/><br><br>
+        <label>Специальность студента</label><br>
+        <select name="special">
+            {{#each student_speciality}}
+            <option value="{{this.number}}">{{this.kod_speciality}}  {{this.number}}</option>
+            {{/each}}
+        </select>
+        <input type="submit" value="Отправить" />
+    </form>
+    <a href="/">К списку студентов</a>
+</body>
+</html>
